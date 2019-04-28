@@ -114,6 +114,7 @@ main {
   position: relative;
   z-index: 1;
   overflow-x: hidden;
+  padding-bottom: 100px;
 }
 
 h1 {
@@ -130,6 +131,17 @@ h2, p {
 p {
   max-width: 75%;
   columns: 2;
+}
+
+a#gobutton {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 15px;
+  margin: 25px;
+  color: #FFBE53;
+  background-color: #FF6138;
+  text-decoration: none;
 }
 
 .box {
@@ -149,7 +161,11 @@ p {
   z-index: 1;
   height: 100%;
   margin: 0 0 0 0px;
+}
 
+.expand.expand-js-2 {
+  width: 100%;
+  opacity: 0;
 }
 
 .color1 { color:#FF6138; }
