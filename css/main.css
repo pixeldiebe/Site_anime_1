@@ -105,8 +105,8 @@ body {
   font-family: sans-serif;
   font-size: 18px;
   font-size: 1em;
-  color: #FFBE53;
-  background-color: #2980B9;
+  color: #0a3e57;
+  background-color: #d8e4d7;
 }
 
 main {
@@ -123,7 +123,7 @@ h1 {
 }
 
 h2, p {
-  color: #2980B9;
+  color: #ffbc1c;
   position: relative;
   z-index: 5;
 }
@@ -133,14 +133,21 @@ p {
   columns: 2;
 }
 
+.anime-wrapper {
+  background-color: #ffbc1c;
+}
+.anime-trigger {
+  overflow: hidden;
+}
+
 a#gobutton {
   display: inline-block;
   font-size: 30px;
   font-weight: 700;
   padding: 15px;
   margin: 25px;
-  color: #FFBE53;
-  background-color: #FF6138;
+  color: #f6eada;
+  background-color: #bd5c1e;
   text-decoration: none;
 }
 
